@@ -20,6 +20,6 @@ app.get('/youtube',(req,res)=>{
     res.send("<h2>Chai aur Code</h2>")
 })
 
-app.listen(process.env.port, () => {
+app.listen(port=> {
   console.log(`Example app listening on port ${port}`)
 })
